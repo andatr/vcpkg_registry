@@ -1,5 +1,5 @@
 {
-  "name": "object_pool",
+  "name": "object-pool",
   "version": "0.0.1",
   "description": "Simple Segregated Storage implementation",
   "homepage": "https://github.com/andatr/object_pool",
