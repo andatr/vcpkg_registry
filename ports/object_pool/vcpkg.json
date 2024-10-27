@@ -1,0 +1,13 @@
+{
+  "name": "object_pool",
+  "version": "0.0.1",
+  "description": "Simple Segregated Storage implementation",
+  "homepage": "https://github.com/andatr/object_pool",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    }
+  ]
+}
