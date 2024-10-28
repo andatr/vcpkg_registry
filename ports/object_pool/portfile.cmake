@@ -2,7 +2,7 @@ vcpkg_from_github(
   OUT_SOURCE_PATH SOURCE_PATH
   REPO andatr/object_pool
   REF "v${VERSION}"
-  SHA512 5162ca2dc7a64f9a80b2ac3cbe4d4e4513067395ff45c05eaa875a44ca2251e85b2e93d7be1dbf741703b7f619fd1e32dbb5d726ca492e76ba4c8a5cd6f5940d
+  SHA512 43569b73422b3110e4ef8a28e578263f7d51525b0b790d73f6758afc693bb614deadd0b27be02927576d6c2a1ba86aac2bef3b4db9ba8e47249dc42889028015
   HEAD_REF master
 )
 vcpkg_cmake_configure(
