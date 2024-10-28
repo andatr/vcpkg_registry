@@ -7,6 +7,11 @@ vcpkg_from_github(
 )
 vcpkg_cmake_configure(
   SOURCE_PATH "${SOURCE_PATH}"
-  OPTIONS "-DOBJECT_POOL_TEST=OFF -DOBJECT_POOL_EXAMPLES=OFF"
+  OPTIONS
+    -DOBJECT_POOL_TEST=ON
+    -DOBJECT_POOL_EXAMPLES=OFF
 )
 vcpkg_cmake_install()
+vcpkg_cmake_config_fixup(PACKAGE_NAME object_pool CONFIG_PATH "share/cmake/object_pool")
+vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug")
